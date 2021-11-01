@@ -1,7 +1,7 @@
 // Inquire Questions & Switch Statements
 const inquirer = require('inquirer');
 const {viewAllEmployees} = require('./employeeRoutes');
-const {viewAllDepartments} = require('./departmentRoutes');
+const {viewAllDepartments} = require('./departmentsRoutes');
 const {viewAllRoles} = require('./rolesRoutes');
 
 function questions() {
